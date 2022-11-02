@@ -1,0 +1,535 @@
+{
+  "name": {
+    "en": "World Clock",
+    "fr": "World Clock"
+  },
+  "category": "Information",
+  "description": {
+    "en": "Shows multiple clock time around the world",
+    "fr": "Affiche plusieurs horloges dans le monde"
+  },
+  "iconName": "https://img.icons8.com/color/480/000000/globe--v1.png",
+  "thumbnail": "https://img.icons8.com/color/480/000000/globe--v1.png",
+  "formFields": [
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "text",
+      "component": "VTextField",
+      "model": "worldClockName",
+      "options": [
+        "World Clock"
+      ]
+    },
+    {
+      "name": "city1",
+      "label": "Location 1",
+      "type": "select",
+      "component": "VSelect",
+      "model": "city1",
+      "options": [
+        {
+          "text": "Montreal",
+          "value": "Montreal"
+        },
+        {
+          "text": "Ottawa",
+          "value": "Ottawa"
+        },
+        {
+          "text": "Abuja",
+          "value": "Abuja"
+        },
+        {
+          "text": "Vancouver",
+          "value": "Vancouver"
+        },
+        {
+          "text": "Greenwich",
+          "value": "Greenwich"
+        },
+        {
+          "text": "Mumbai",
+          "value": "Mumbai"
+        },
+        {
+          "text": "London",
+          "value": "London"
+        },
+        {
+          "text": "Toronto",
+          "value": "Toronto"
+        },
+        {
+          "text": "Quebec",
+          "value": "Quebec"
+        },
+        {
+          "text": "New York",
+          "value": "New York"
+        },
+        {
+          "text": "Quebec City",
+          "value": "Quebec City"
+        },
+        {
+          "text": "Bangalore",
+          "value": "Bangalore"
+        },
+        {
+          "text": "Delhi",
+          "value": "Delhi"
+        },
+        {
+          "text": "Beijing",
+          "value": "Beijing"
+        },
+        {
+          "text": "Hong Kong",
+          "value": "Hong Kong"
+        },
+        {
+          "text": "Canada",
+          "value": "Canada"
+        },
+        {
+          "text": "China",
+          "value": "China"
+        },
+        {
+          "text": "India",
+          "value": "India"
+        },
+        {
+          "text": "None",
+          "value": "None"
+        }
+      ]
+    },
+    {
+      "name": "city2",
+      "label": "Location 2",
+      "type": "select",
+      "component": "VSelect",
+      "model": "city2",
+      "options": [
+        {
+          "text": "None",
+          "value": "None"
+        },
+        {
+          "text": "Beijing",
+          "value": "Beijing"
+        },
+        {
+          "text": "Abuja",
+          "value": "Abuja"
+        },
+        {
+          "text": "Montreal",
+          "value": "Montreal"
+        },
+        {
+          "text": "Vancouver",
+          "value": "Vancouver"
+        },
+        {
+          "text": "Greenwich",
+          "value": "Greenwich"
+        },
+        {
+          "text": "Mumbai",
+          "value": "Mumbai"
+        },
+        {
+          "text": "London",
+          "value": "London"
+        },
+        {
+          "text": "Toronto",
+          "value": "Toronto"
+        },
+        {
+          "text": "Ottawa",
+          "value": "Ottawa"
+        },
+        {
+          "text": "Quebec",
+          "value": "Quebec"
+        },
+        {
+          "text": "New York",
+          "value": "New York"
+        },
+        {
+          "text": "Quebec City",
+          "value": "Quebec City"
+        },
+        {
+          "text": "Bangalore",
+          "value": "Bangalore"
+        },
+        {
+          "text": "Delhi",
+          "value": "Delhi"
+        },
+        {
+          "text": "Hong Kong",
+          "value": "Hong Kong"
+        },
+        {
+          "text": "Canada",
+          "value": "Canada"
+        },
+        {
+          "text": "China",
+          "value": "China"
+        },
+        {
+          "text": "India",
+          "value": "India"
+        }
+      ]
+    },
+    {
+      "name": "city3",
+      "label": "Location 3",
+      "type": "select",
+      "component": "VSelect",
+      "model": "city3",
+      "options": [
+        {
+          "text": "None",
+          "value": "None"
+        },
+        {
+          "text": "New York",
+          "value": "New York"
+        },
+        {
+          "text": "Quebec City",
+          "value": "Quebec City"
+        },
+        {
+          "text": "China",
+          "value": "China"
+        },
+        {
+          "text": "Montreal",
+          "value": "Montreal"
+        },
+        {
+          "text": "Abuja",
+          "value": "Abuja"
+        },
+        {
+          "text": "Vancouver",
+          "value": "Vancouver"
+        },
+        {
+          "text": "Greenwich",
+          "value": "Greenwich"
+        },
+        {
+          "text": "Mumbai",
+          "value": "Mumbai"
+        },
+        {
+          "text": "London",
+          "value": "London"
+        },
+        {
+          "text": "Toronto",
+          "value": "Toronto"
+        },
+        {
+          "text": "Ottawa",
+          "value": "Ottawa"
+        },
+        {
+          "text": "Quebec",
+          "value": "Quebec"
+        },
+        {
+          "text": "Bangalore",
+          "value": "Bangalore"
+        },
+        {
+          "text": "Delhi",
+          "value": "Delhi"
+        },
+        {
+          "text": "Beijing",
+          "value": "Beijing"
+        },
+        {
+          "text": "Hong Kong",
+          "value": "Hong Kong"
+        },
+        {
+          "text": "Canada",
+          "value": "Canada"
+        },
+        {
+          "text": "India",
+          "value": "India"
+        }
+      ]
+    },
+    {
+      "name": "city4",
+      "label": "Location 4",
+      "type": "select",
+      "component": "VSelect",
+      "model": "city4",
+      "options": [
+        {
+          "text": "None",
+          "value": "None"
+        },
+        {
+          "text": "Quebec City",
+          "value": "Quebec City"
+        },
+        {
+          "text": "Vancouver",
+          "value": "Vancouver"
+        },
+        {
+          "text": "Montreal",
+          "value": "Montreal"
+        },
+        {
+          "text": "Abuja",
+          "value": "Abuja"
+        },
+        {
+          "text": "Greenwich",
+          "value": "Greenwich"
+        },
+        {
+          "text": "Mumbai",
+          "value": "Mumbai"
+        },
+        {
+          "text": "London",
+          "value": "London"
+        },
+        {
+          "text": "Toronto",
+          "value": "Toronto"
+        },
+        {
+          "text": "Ottawa",
+          "value": "Ottawa"
+        },
+        {
+          "text": "Quebec",
+          "value": "Quebec"
+        },
+        {
+          "text": "New York",
+          "value": "New York"
+        },
+        {
+          "text": "Bangalore",
+          "value": "Bangalore"
+        },
+        {
+          "text": "Delhi",
+          "value": "Delhi"
+        },
+        {
+          "text": "Beijing",
+          "value": "Beijing"
+        },
+        {
+          "text": "Hong Kong",
+          "value": "Hong Kong"
+        },
+        {
+          "text": "Canada",
+          "value": "Canada"
+        },
+        {
+          "text": "China",
+          "value": "China"
+        },
+        {
+          "text": "India",
+          "value": "India"
+        }
+      ]
+    },
+    {
+      "name": "city5",
+      "label": "Location 5",
+      "type": "select",
+      "component": "VSelect",
+      "model": "city5",
+      "options": [
+        {
+          "text": "None",
+          "value": "None"
+        },
+        {
+          "text": "Hong Kong",
+          "value": "Hong Kong"
+        },
+        {
+          "text": "London",
+          "value": "London"
+        },
+        {
+          "text": "Montreal",
+          "value": "Montreal"
+        },
+        {
+          "text": "Abuja",
+          "value": "Abuja"
+        },
+        {
+          "text": "Vancouver",
+          "value": "Vancouver"
+        },
+        {
+          "text": "Greenwich",
+          "value": "Greenwich"
+        },
+        {
+          "text": "Mumbai",
+          "value": "Mumbai"
+        },
+        {
+          "text": "Toronto",
+          "value": "Toronto"
+        },
+        {
+          "text": "Ottawa",
+          "value": "Ottawa"
+        },
+        {
+          "text": "Quebec",
+          "value": "Quebec"
+        },
+        {
+          "text": "New York",
+          "value": "New York"
+        },
+        {
+          "text": "Quebec City",
+          "value": "Quebec City"
+        },
+        {
+          "text": "Bangalore",
+          "value": "Bangalore"
+        },
+        {
+          "text": "Delhi",
+          "value": "Delhi"
+        },
+        {
+          "text": "Beijing",
+          "value": "Beijing"
+        },
+        {
+          "text": "Canada",
+          "value": "Canada"
+        },
+        {
+          "text": "China",
+          "value": "China"
+        },
+        {
+          "text": "India",
+          "value": "India"
+        }
+      ]
+    },
+    {
+      "name": "city6",
+      "label": "Location 6",
+      "type": "select",
+      "component": "VSelect",
+      "model": "city6",
+      "options": [
+        {
+          "text": "None",
+          "value": "None"
+        },
+        {
+          "text": "Mumbai",
+          "value": "Mumbai"
+        },
+        {
+          "text": "Greenwich",
+          "value": "Greenwich"
+        },
+        {
+          "text": "Montreal",
+          "value": "Montreal"
+        },
+        {
+          "text": "Abuja",
+          "value": "Abuja"
+        },
+        {
+          "text": "Vancouver",
+          "value": "Vancouver"
+        },
+        {
+          "text": "London",
+          "value": "London"
+        },
+        {
+          "text": "Toronto",
+          "value": "Toronto"
+        },
+        {
+          "text": "Ottawa",
+          "value": "Ottawa"
+        },
+        {
+          "text": "Quebec",
+          "value": "Quebec"
+        },
+        {
+          "text": "New York",
+          "value": "New York"
+        },
+        {
+          "text": "Quebec City",
+          "value": "Quebec City"
+        },
+        {
+          "text": "Bangalore",
+          "value": "Bangalore"
+        },
+        {
+          "text": "Delhi",
+          "value": "Delhi"
+        },
+        {
+          "text": "Beijing",
+          "value": "Beijing"
+        },
+        {
+          "text": "Hong Kong",
+          "value": "Hong Kong"
+        },
+        {
+          "text": "Canada",
+          "value": "Canada"
+        },
+        {
+          "text": "China",
+          "value": "China"
+        },
+        {
+          "text": "India",
+          "value": "India"
+        }
+      ]
+    }
+  ]
+}
